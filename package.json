@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "chmod +x ./node_modules/.bin/tsc"
   },
   "dependencies": {
     "@ant-design/icons": "^5.3.7",
@@ -21,7 +22,7 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.0",
-    "typescript": "^5.4.5",
+    "typescript": "^5.2.2",
     "vite": "^5.2.12"
   }
 }
