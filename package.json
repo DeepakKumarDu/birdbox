@@ -6,12 +6,15 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "chmod +x ./node_modules/.bin/tsc"
   },
   "dependencies": {
     "@ant-design/icons": "^5.3.7",
     "@reduxjs/toolkit": "^2.2.3",
     "antd": "^5.17.0",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^3.3.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-redux": "^9.1.2",
@@ -21,7 +24,7 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.0",
-    "typescript": "^5.4.5",
+    "typescript": "^5.2.2",
     "vite": "^5.2.12"
   }
 }
